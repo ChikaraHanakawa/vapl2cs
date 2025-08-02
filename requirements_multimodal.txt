@@ -1,0 +1,33 @@
+# Core dependencies
+torch>=1.10.0
+torchvision>=0.11.0
+lightning>=2.0.0
+hydra-core>=1.2.0
+omegaconf>=2.2.0
+
+# Audio processing
+librosa>=0.9.0
+soundfile>=0.10.0
+pyloudnorm>=0.1.0
+
+# Image processing
+opencv-python>=4.5.5
+pillow>=9.0.0
+
+# Data manipulation
+numpy>=1.20.0
+pandas>=1.3.0
+matplotlib>=3.4.0
+scipy>=1.7.0
+
+# Progress and utilities
+tqdm>=4.62.0
+pyyaml>=6.0
+wandb>=0.12.0  # For logging if using Weights & Biases
+tensorboard>=2.8.0  # Alternative logging
+
+# Other utilities
+scikit-learn>=1.0.0
+jsonschema>=4.4.0
+webdataset>=0.2.0
+pyannote.core>=4.0
